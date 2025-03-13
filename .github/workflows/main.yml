@@ -1,0 +1,46 @@
+name: Display Random Pull Request Information
+
+on:
+  workflow_dispatch: # 手動実行を有効にする
+  schedule:
+  - cron: "15 */2 * * *" # 2hに一回？ 
+
+jobs:
+  pr-info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: pull_requests.json を読み込む
+        id:  generate
+        run: |
+          # pull_requests.json を読み込む
+          PR_JSON=$(cat pull_requests.json)
+          
+          # ランダムなプルリクエストを選ぶ
+          PR=$(echo "$PR_JSON" | jq '.[0]')  # ここでは最初のPRを選択
+          
+          # プルリクエストの情報を表示
+          echo "選ばれたプルリクエストの情報:"
+          echo "title=$(echo "タイトル: $(echo "$PR" | jq -r '.title')")" >> $GITHUB_OUTPUT
+          echo "user=$(echo "作成者: $(echo "$PR" | jq -r '.user.login')")" >> $GITHUB_OUTPUT
+          echo "url=$(echo "URL: $(echo "$PR" | jq -r '.html_url')")" >> $GITHUB_OUTPUT
+       
+
+  
+# nostrに投稿する
+      - uses: snow-actions/nostr@v1.8.1
+        timeout-minutes: 0.2 #publishのTimeout
+        with:
+          relays: ${{ vars.NOSTR_RELAYS }}
+          private-key: ${{ secrets.NOSTR_PRIVATE_KEY }}
+          content: |
+            ${{ steps.generate.outputs.title }}
+            ${{ steps.generate.outputs.user }}
+            ${{ steps.generate.outputs.url }}
+        id: publish
+   # - run: echo "${event}"
+   #   env:
+   #     event: ${{ steps.publish.outputs.event }}
