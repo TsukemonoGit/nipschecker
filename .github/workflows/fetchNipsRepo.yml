@@ -19,7 +19,7 @@ jobs:
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/pulls?state=open" | jq '.' > pull_requests.json
 
-      - name: `.md` ファイルの一覧を取得
+      - name: md ファイルの一覧を取得
         run: |
           # リポジトリ内の `.md` ファイルをリストアップして JSON 形式に変換
           find . -type f -name "*.md" | jq -R . | jq -s . > md_files.json
