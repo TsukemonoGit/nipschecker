@@ -43,13 +43,14 @@ jobs:
         id: extract_nip_list
         run: |
           # リスト部分を正規表現でパースして JSON 形式に変換
-          cat list_section.md | grep -o '\[.*\](.*\.md)' | jq -Rn '
-            [inputs 
+          cat list_section.md | grep -o '\[.*\](.*\.md)' | sed 's/(/\\(/g; s/)/\\)/g' | jq -Rn '
+            [inputs
             | capture("\\[(?<title>[^\\]]+)\\] \\((?<file>[^)]+)\\)") 
             | {title: .title, file: .file, url: ("https://github.com/nostr-protocol/nips/blob/master/" + .file)}]'
       
           # JSONの中身を確認
           cat nip_list.json
+
 
 
 
