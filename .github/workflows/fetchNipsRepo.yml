@@ -19,7 +19,7 @@ jobs:
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/pulls?state=open" | jq '.' > pull_requests.json
 
-      - name: .md ファイルの一覧を取得
+      - name: `.md` ファイルの一覧を取得
         run: |
           # リポジトリ内の `.md` ファイルをリストアップして JSON 形式に変換
           find . -type f -name "*.md" | jq -R . | jq -s . > md_files.json
@@ -32,8 +32,9 @@ jobs:
 
           # pull_requests.json と md_files.json に変更があれば commit を実行
           git add pull_requests.json md_files.json
-          if ! git diff --quiet; then
+          if git diff --quiet; then
+            echo "No changes detected, skipping commit."
+          else
             git commit -m "Update open pull requests list and markdown files list"
             git push origin main --force # main ブランチにプッシュ
-          else
-            echo "No changes detected, skipping commit."
+          fi
