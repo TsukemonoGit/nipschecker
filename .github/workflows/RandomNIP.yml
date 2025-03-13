@@ -42,6 +42,6 @@ jobs:
           relays: ${{ vars.NOSTR_RELAYS }}
           private-key: ${{ secrets.NOSTR_PRIVATE_KEY }}
           content: |
-            NIP:${{ env.nip_number }}
+            NIP-${{ env.nip_number }}
             URL: https://github.com/nostr-protocol/nips/blob/master/${{ env.nip_number }}.md
         id: publish
