@@ -15,20 +15,10 @@ jobs:
           # list_section.md の内容を表示して確認
           cat list_section.md
 
-      - name: リスト抽出の確認
-        run: |
-          # grep でリンクを抽出し、抽出した内容を表示
-          cat list_section.md | grep -o '\[.*\](.*\.md)' > extracted_links.txt
-          echo "抽出されたリンク:"
-          cat extracted_links.txt
-
       - name: NIP リストを JSON に変換
         run: |
-          # 抽出したリンクを確認
-          cat extracted_links.txt
-
           # リストを JSON に変換
-          cat extracted_links.txt | sed 's/(/\\(/g; s/)/\\)/g' | jq -Rn '
+          cat list_section.md | sed 's/(/\\(/g; s/)/\\)/g' | jq -Rn '
             [inputs
             | capture("\\[(?<title>[^\\]]+)\\] \\((?<file>[^)]+)\\)") 
             | {title: .title, file: .file, url: ("https://github.com/nostr-protocol/nips/blob/master/" + .file)}]' > nip_list.json
