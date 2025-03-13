@@ -23,13 +23,18 @@ jobs:
       - name: nip_list.json からランダムな NIP を選択
         id: select_nip
         run: |
-          # nip_list.json を jq で読み込み、ランダムに1つを選ぶ
-          selected_nip=$(jq -r '.[random | floor * length] | {title, file, url}' nip_list.json)
+          # nip_list.json を jq で読み込み、ランダムなインデックスを選ぶ
+          selected_nip=$(jq -r '.[(rand * length) | floor | int] | {title, file, url}' nip_list.json)
           
           # 各フィールドを環境変数に設定
           title=$(echo "$selected_nip" | jq -r '.title')
           file=$(echo "$selected_nip" | jq -r '.file')
           url=$(echo "$selected_nip" | jq -r '.url')
+
+          # 環境変数に設定
+          echo "title=$title" >> $GITHUB_ENV
+          echo "file=$file" >> $GITHUB_ENV
+          echo "url=$url" >> $GITHUB_ENV
 
       - name: 選ばれたファイルを表示
         run: echo "ランダムに選ばれたファイルは ${{ env.title }} です"
