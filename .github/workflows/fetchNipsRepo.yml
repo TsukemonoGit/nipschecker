@@ -19,21 +19,25 @@ jobs:
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/pulls?state=open" | jq '.' > pull_requests.json
 
-      - name: GitHub API から .md ファイルを取得
+      - name: 除外リスト（exclude_files.json）を作成
         run: |
-          # GitHub API を使用してリポジトリ内の .md ファイルを取得
+          echo '["BREAKING.md", "README.md"]' > exclude_files.json
+
+      - name: GitHub API から .md ファイルを取得し、除外リストを適用
+        run: |
+          # GitHub API を使用してリポジトリのルートにある .md ファイルを取得
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/contents?ref=master" | \
-          jq '.[] | select(.name | endswith(".md")) | .path' > md_files.json
+          jq -r '[.[] | select(.name | endswith(".md")) | .name] | . - (input)' exclude_files.json > md_files.json
 
       - name: md_files.json が生成されたか確認
         run: |
-          # md_files.json ファイルが存在するか確認
           if [[ ! -f md_files.json ]]; then
             echo "Error: md_files.json was not created."
             exit 1
           else
             echo "md_files.json was successfully created."
+            cat md_files.json  # デバッグ用に中身を出力
           fi
 
       - name: 変更があればコミットしてプッシュ
@@ -42,13 +46,11 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git checkout main # main ブランチに切り替え
 
-          # pull_requests.json と md_files.json に変更があれば commit を実行
-          git add pull_requests.json md_files.json
-          
-          # 明示的にステージングしてコミット
+          # 変更があれば commit
+          git add pull_requests.json md_files.json exclude_files.json
           if [[ `git status --porcelain` ]]; then
             git commit -m "Update open pull requests list and markdown files list"
-            git push origin main --force # main ブランチにプッシュ
+            git push origin main --force
           else
             echo "No changes detected, skipping commit."
           fi
