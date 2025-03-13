@@ -20,7 +20,7 @@ jobs:
           PR_JSON=$(cat pull_requests.json)
           
           # ランダムなプルリクエストを選ぶ
-          PR=$(echo "$PR_JSON" | jq '.[0]')  # ここでは最初のPRを選択
+          PR=$(echo "$PR_JSON" | jq 'shuffle | .[0]')
           
           # プルリクエストの情報を表示
           echo "選ばれたプルリクエストの情報:"
