@@ -24,8 +24,8 @@ jobs:
         id: select_nip
         run: |
           # nip_list.json を jq で読み込み、ランダムなインデックスを選ぶ
-          selected_nip=$(jq -r '.[(rand * length) | floor | int] | {title, file, url}' nip_list.json)
-          
+          selected_nip=$(jq -r '.[(random | floor * length) | floor] | {title, file, url}' nip_list.json)
+
           # 各フィールドを環境変数に設定
           title=$(echo "$selected_nip" | jq -r '.title')
           file=$(echo "$selected_nip" | jq -r '.file')
