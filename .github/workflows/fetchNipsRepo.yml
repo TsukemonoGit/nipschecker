@@ -19,17 +19,12 @@ jobs:
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/pulls?state=open" | jq '.' > pull_requests.json
 
-      - name: GitHub API から .md ファイルを取得（レスポンス内容を確認）
+      - name: GitHub API から .md ファイルを取得
         run: |
-          # レスポンスの内容をデバッグして表示
+          # GitHub API を使用してリポジトリ内の .md ファイルを取得
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          "https://api.github.com/repos/nostr-protocol/nips/contents?ref=master" > response.json
-          cat response.json  # レスポンス内容を表示
-
-      - name: レスポンスから .md ファイルを抽出
-        run: |
-          # レスポンスが正しく取得できているかを確認後、.md ファイルを抽出
-          jq -r '.[] | select(.name | endswith(".md")) | .path' response.json > md_files.json
+          "https://api.github.com/repos/nostr-protocol/nips/contents?ref=master" | \
+          jq '.[] | select(.name | endswith(".md")) | .path' > md_files.json
 
       - name: md_files.json が生成されたか確認
         run: |
