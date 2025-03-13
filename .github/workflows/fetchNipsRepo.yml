@@ -24,6 +24,12 @@ jobs:
           # リポジトリ内の `.md` ファイルをリストアップして JSON 形式に変換
           find . -type f -name "*.md" | jq -R . | jq -s . > md_files.json
 
+      - name: 変更があるか確認
+        run: |
+          echo "Checking for changes..."
+          git status
+          git diff
+
       - name: 変更があればコミットしてプッシュ
         run: |
           git config --global user.name "github-actions[bot]"
