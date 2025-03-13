@@ -13,27 +13,26 @@ jobs:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
 
-      - name: md_files.json を読み込む
+      - name: nip_list.json の存在確認
         run: |
-          # md_files.json と exclude_files.json を読み込む
-          MD_FILES=$(cat md_files.json | jq -r '.[]')
-          EXCLUDE_FILES=$(cat exclude_files.json | jq -r '.[]')
+          if [ ! -f nip_list.json ]; then
+            echo "nip_list.json が見つかりません"
+            exit 1
+          fi
 
-          # 除外リストに含まれない .md ファイルを取得
-          FILTERED_FILES=$(echo "$MD_FILES" | grep -Fxv -f <(echo "$EXCLUDE_FILES"))
-
-          # ランダムで1つ選択
-          RANDOM_FILE=$(echo "$FILTERED_FILES" | shuf -n 1)
-
-          # 拡張子 .md を取り除く
-          NIP_NUMBER=$(basename "$RANDOM_FILE" .md)
-
-          # 選ばれたファイルとNIP番号を出力
-          echo "選ばれたファイル: $RANDOM_FILE"
-          echo "nip_number=$NIP_NUMBER" >> $GITHUB_ENV
+      - name: nip_list.json からランダムな NIP を選択
+        id: select_nip
+        run: |
+          # nip_list.json を jq で読み込み、ランダムに1つを選ぶ
+          selected_nip=$(jq -r '.[random | floor * length] | {title, file, url}' nip_list.json)
+          
+          # 各フィールドを環境変数に設定
+          title=$(echo "$selected_nip" | jq -r '.title')
+          file=$(echo "$selected_nip" | jq -r '.file')
+          url=$(echo "$selected_nip" | jq -r '.url')
 
       - name: 選ばれたファイルを表示
-        run: echo "ランダムに選ばれたファイルは ${{ env.nip_number }} です"
+        run: echo "ランダムに選ばれたファイルは ${{ env.title }} です"
 
       - name: Nostr に投稿する
         uses: snow-actions/nostr@v1.8.1
@@ -42,6 +41,6 @@ jobs:
           relays: ${{ vars.NOSTR_RELAYS }}
           private-key: ${{ secrets.NOSTR_PRIVATE_KEY }}
           content: |
-            NIP-${{ env.nip_number }}
-            URL: https://github.com/nostr-protocol/nips/blob/master/${{ env.nip_number }}.md
+            ${{ env.title }}
+            ${{ env.url }}
         id: publish
