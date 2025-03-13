@@ -34,10 +34,12 @@ jobs:
           SELECTED_PR=$(echo "$PR_JSON" | jq ".[$RANDOM_INDEX]")
 
           # PR 情報を出力
+          PR_NUMBER=$(echo "$SELECTED_PR" | jq -r '.number')
           TITLE=$(echo "$SELECTED_PR" | jq -r '.title')
           USER=$(echo "$SELECTED_PR" | jq -r '.user.login')
           URL=$(echo "$SELECTED_PR" | jq -r '.html_url')
 
+          echo "number=$PR_NUMBER" >> $GITHUB_ENV
           echo "title=$TITLE" >> $GITHUB_ENV
           echo "user=$USER" >> $GITHUB_ENV
           echo "url=$URL" >> $GITHUB_ENV
@@ -45,6 +47,7 @@ jobs:
       - name: 選ばれた PR を表示
         run: |
           echo "選ばれたプルリクエストの情報:"
+          echo "プルリクエスト番号: ${{ env.number }}"
           echo "タイトル: ${{ env.title }}"
           echo "作成者: ${{ env.user }}"
           echo "URL: ${{ env.url }}"
@@ -56,6 +59,7 @@ jobs:
           relays: ${{ vars.NOSTR_RELAYS }}
           private-key: ${{ secrets.NOSTR_PRIVATE_KEY }}
           content: |
+            RandomPullRequest No.${{ env.number }}
             タイトル: ${{ env.title }}
             作成者: ${{ env.user }}
             URL: ${{ env.url }}
