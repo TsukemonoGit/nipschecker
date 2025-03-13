@@ -23,8 +23,14 @@ jobs:
       - name: nip_list.json からランダムな NIP を選択
         id: select_nip
         run: |
-          # nip_list.json を jq で読み込み、ランダムなインデックスを選ぶ
-          selected_nip=$(jq -r '.[(random | floor * length) | floor] | {title, file, url}' nip_list.json)
+          # nip_list.json を読み込み、配列の長さを取得
+          length=$(jq length nip_list.json)
+
+          # ランダムなインデックスを生成
+          random_index=$((RANDOM % length))
+
+          # ランダムなインデックスで選んだ NIP の情報を取得
+          selected_nip=$(jq -r ".[$random_index] | {title, file, url}" nip_list.json)
 
           # 各フィールドを環境変数に設定
           title=$(echo "$selected_nip" | jq -r '.title')
