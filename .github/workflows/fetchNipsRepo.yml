@@ -9,7 +9,7 @@ jobs:
   fetch-prs-and-md-files:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # リポジトリのコンテンツに対する書き込み権限を与える
+      contents: read  # リポジトリのコンテンツを読む権限を与える
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
@@ -19,11 +19,13 @@ jobs:
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/pulls?state=open" | jq '.' > pull_requests.json
 
-      - name: md ファイルの一覧を取得
+      - name: GitHub API から .md ファイルを取得
         run: |
-          # リポジトリ内の `.md` ファイルをリストアップして JSON 形式に変換
-          find . -type f -name "*.md" | jq -R . | jq -s . > md_files.json
-          
+          # GitHub API を使用してリポジトリ内の .md ファイルを取得
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/nostr-protocol/nips/contents?ref=main" | \
+          jq '.[] | select(.name | endswith(".md")) | .path' > md_files.json
+
       - name: md_files.json が生成されたか確認
         run: |
           # md_files.json ファイルが存在するか確認
