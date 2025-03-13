@@ -1,4 +1,4 @@
-name: Select Random NIPs Markdown File
+name: Random NIPs
 
 on:
   workflow_dispatch: # 手動実行を可能にする
