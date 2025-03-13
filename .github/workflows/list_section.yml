@@ -20,7 +20,7 @@ jobs:
           # リストを JSON に変換
           cat list_section.md | sed 's/(/\\(/g; s/)/\\)/g' | jq -Rn '
           [inputs
-          | capture("\\[(?<title>[^\\]]+)\\]:? (?<desc>[^\\n]+)\\] \\((?<file>[^)]+)\\)")
+          | capture("\\- \\[(?<title>[^\\]]+)\\] \\((?<file>[^)]+)\\)")
           | {title: .title, file: .file, url: ("https://github.com/nostr-protocol/nips/blob/master/" + .file)}]' > nip_list.json
 
 
