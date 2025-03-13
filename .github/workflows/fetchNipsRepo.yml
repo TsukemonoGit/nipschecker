@@ -25,10 +25,14 @@ jobs:
 
       - name: GitHub API から .md ファイルを取得し、除外リストを適用
         run: |
-          # GitHub API を使用してリポジトリのルートにある .md ファイルを取得
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          "https://api.github.com/repos/nostr-protocol/nips/contents?ref=master" | \
-          jq -r '[.[] | select(.name | endswith(".md")) | .name] | . - (input)' exclude_files.json > md_files.json
+          # リモートリポジトリのルートにある .md ファイルを取得
+          MD_FILES=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/nostr-protocol/nips/contents?ref=master")
+
+          # 除外リストを適用
+          jq --argjson exclude "$(cat exclude_files.json)" \
+            '[.[] | select(.name | endswith(".md") and (.name | inside($exclude) | not)) | .name]' \
+            <<< "$MD_FILES" > md_files.json
 
       - name: md_files.json が生成されたか確認
         run: |
