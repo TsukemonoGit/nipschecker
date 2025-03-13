@@ -1,0 +1,28 @@
+name: Fetch Open Pull Requests
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 毎日UTC 00:00（日本時間 09:00）に実行
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  fetch-prs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: GitHub API から PR を取得
+        run: |
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/nostr-protocol/nips/pulls" | jq '.' > pull_requests.json
+
+      - name: JSON ファイルをコミットしてプッシュ
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git checkout -B gh-pages # gh-pages ブランチに保存
+          git add pull_requests.json
+          git commit -m "Update pull requests list"
+          git push origin gh-pages --force
