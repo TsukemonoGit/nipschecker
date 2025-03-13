@@ -15,6 +15,11 @@ jobs:
           # list_section.md の内容を表示して確認
           cat list_section.md
 
+      - name: デバッグ list_section.md の内容を確認
+        run: |
+          # list_section.md の行数と行の内容を表示
+          cat -n list_section.md
+
       - name: NIP リストを JSON に変換
         run: |
           # リストを JSON に変換
@@ -22,8 +27,6 @@ jobs:
           [inputs
           | capture("\\- \\[(?<title>[^\\]]+)\\] \\((?<file>[^)]+)\\)")
           | {title: .title, file: .file, url: ("https://github.com/nostr-protocol/nips/blob/master/" + .file)}]' > nip_list.json
-
-
 
       - name: nip_list.json の内容を表示
         run: |
@@ -45,4 +48,3 @@ jobs:
             git push origin main --force # main ブランチにプッシュ
           else
             echo "No changes detected, skipping commit."
-          fi
