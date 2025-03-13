@@ -1,1 +1,397 @@
-[]
+[
+  {
+    "title": "NIP-01: Basic protocol flow description",
+    "file": "01.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/01.md"
+  },
+  {
+    "title": "NIP-02: Follow List",
+    "file": "02.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/02.md"
+  },
+  {
+    "title": "NIP-03: OpenTimestamps Attestations for Events",
+    "file": "03.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/03.md"
+  },
+  {
+    "title": "NIP-04: Encrypted Direct Message",
+    "file": "04.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/04.md"
+  },
+  {
+    "title": "NIP-05: Mapping Nostr keys to DNS-based internet identifiers",
+    "file": "05.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/05.md"
+  },
+  {
+    "title": "NIP-06: Basic key derivation from mnemonic seed phrase",
+    "file": "06.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/06.md"
+  },
+  {
+    "title": "NIP-07: `window.nostr` capability for web browsers",
+    "file": "07.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/07.md"
+  },
+  {
+    "title": "NIP-08: Handling Mentions",
+    "file": "08.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/08.md"
+  },
+  {
+    "title": "NIP-09: Event Deletion Request",
+    "file": "09.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/09.md"
+  },
+  {
+    "title": "NIP-10: Text Notes and Threads",
+    "file": "10.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/10.md"
+  },
+  {
+    "title": "NIP-11: Relay Information Document",
+    "file": "11.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/11.md"
+  },
+  {
+    "title": "NIP-13: Proof of Work",
+    "file": "13.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/13.md"
+  },
+  {
+    "title": "NIP-14: Subject tag in text events",
+    "file": "14.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/14.md"
+  },
+  {
+    "title": "NIP-15: Nostr Marketplace (for resilient marketplaces)",
+    "file": "15.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/15.md"
+  },
+  {
+    "title": "NIP-17: Private Direct Messages",
+    "file": "17.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/17.md"
+  },
+  {
+    "title": "NIP-18: Reposts",
+    "file": "18.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/18.md"
+  },
+  {
+    "title": "NIP-19: bech32-encoded entities",
+    "file": "19.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/19.md"
+  },
+  {
+    "title": "NIP-21: `nostr:` URI scheme",
+    "file": "21.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/21.md"
+  },
+  {
+    "title": "NIP-22: Comment",
+    "file": "22.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/22.md"
+  },
+  {
+    "title": "NIP-23: Long-form Content",
+    "file": "23.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/23.md"
+  },
+  {
+    "title": "NIP-24: Extra metadata fields and tags",
+    "file": "24.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/24.md"
+  },
+  {
+    "title": "NIP-25: Reactions",
+    "file": "25.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/25.md"
+  },
+  {
+    "title": "NIP-26: Delegated Event Signing",
+    "file": "26.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/26.md"
+  },
+  {
+    "title": "NIP-27: Text Note References",
+    "file": "27.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/27.md"
+  },
+  {
+    "title": "NIP-28: Public Chat",
+    "file": "28.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/28.md"
+  },
+  {
+    "title": "NIP-29: Relay-based Groups",
+    "file": "29.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/29.md"
+  },
+  {
+    "title": "NIP-30: Custom Emoji",
+    "file": "30.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/30.md"
+  },
+  {
+    "title": "NIP-31: Dealing with Unknown Events",
+    "file": "31.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/31.md"
+  },
+  {
+    "title": "NIP-32: Labeling",
+    "file": "32.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/32.md"
+  },
+  {
+    "title": "NIP-34: `git` stuff",
+    "file": "34.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/34.md"
+  },
+  {
+    "title": "NIP-35: Torrents",
+    "file": "35.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/35.md"
+  },
+  {
+    "title": "NIP-36: Sensitive Content",
+    "file": "36.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/36.md"
+  },
+  {
+    "title": "NIP-37: Draft Events",
+    "file": "37.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/37.md"
+  },
+  {
+    "title": "NIP-38: User Statuses",
+    "file": "38.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/38.md"
+  },
+  {
+    "title": "NIP-39: External Identities in Profiles",
+    "file": "39.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/39.md"
+  },
+  {
+    "title": "NIP-40: Expiration Timestamp",
+    "file": "40.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/40.md"
+  },
+  {
+    "title": "NIP-42: Authentication of clients to relays",
+    "file": "42.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/42.md"
+  },
+  {
+    "title": "NIP-44: Encrypted Payloads (Versioned)",
+    "file": "44.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/44.md"
+  },
+  {
+    "title": "NIP-45: Counting results",
+    "file": "45.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/45.md"
+  },
+  {
+    "title": "NIP-46: Nostr Remote Signing",
+    "file": "46.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/46.md"
+  },
+  {
+    "title": "NIP-47: Nostr Wallet Connect",
+    "file": "47.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/47.md"
+  },
+  {
+    "title": "NIP-48: Proxy Tags",
+    "file": "48.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/48.md"
+  },
+  {
+    "title": "NIP-49: Private Key Encryption",
+    "file": "49.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/49.md"
+  },
+  {
+    "title": "NIP-50: Search Capability",
+    "file": "50.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/50.md"
+  },
+  {
+    "title": "NIP-51: Lists",
+    "file": "51.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/51.md"
+  },
+  {
+    "title": "NIP-52: Calendar Events",
+    "file": "52.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/52.md"
+  },
+  {
+    "title": "NIP-53: Live Activities",
+    "file": "53.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/53.md"
+  },
+  {
+    "title": "NIP-54: Wiki",
+    "file": "54.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/54.md"
+  },
+  {
+    "title": "NIP-55: Android Signer Application",
+    "file": "55.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/55.md"
+  },
+  {
+    "title": "NIP-56: Reporting",
+    "file": "56.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/56.md"
+  },
+  {
+    "title": "NIP-57: Lightning Zaps",
+    "file": "57.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/57.md"
+  },
+  {
+    "title": "NIP-58: Badges",
+    "file": "58.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/58.md"
+  },
+  {
+    "title": "NIP-59: Gift Wrap",
+    "file": "59.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/59.md"
+  },
+  {
+    "title": "NIP-60: Cashu Wallet",
+    "file": "60.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/60.md"
+  },
+  {
+    "title": "NIP-61: Nutzaps",
+    "file": "61.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/61.md"
+  },
+  {
+    "title": "NIP-62: Request to Vanish",
+    "file": "62.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/62.md"
+  },
+  {
+    "title": "NIP-64: Chess (PGN)",
+    "file": "64.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/64.md"
+  },
+  {
+    "title": "NIP-65: Relay List Metadata",
+    "file": "65.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/65.md"
+  },
+  {
+    "title": "NIP-66: Relay Discovery and Liveness Monitoring",
+    "file": "66.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/66.md"
+  },
+  {
+    "title": "NIP-68: Picture-first feeds",
+    "file": "68.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/68.md"
+  },
+  {
+    "title": "NIP-69: Peer-to-peer Order events",
+    "file": "69.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/69.md"
+  },
+  {
+    "title": "NIP-70: Protected Events",
+    "file": "70.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/70.md"
+  },
+  {
+    "title": "NIP-71: Video Events",
+    "file": "71.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/71.md"
+  },
+  {
+    "title": "NIP-72: Moderated Communities",
+    "file": "72.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/72.md"
+  },
+  {
+    "title": "NIP-73: External Content IDs",
+    "file": "73.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/73.md"
+  },
+  {
+    "title": "NIP-75: Zap Goals",
+    "file": "75.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/75.md"
+  },
+  {
+    "title": "NIP-78: Application-specific data",
+    "file": "78.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/78.md"
+  },
+  {
+    "title": "NIP-84: Highlights",
+    "file": "84.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/84.md"
+  },
+  {
+    "title": "NIP-86: Relay Management API",
+    "file": "86.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/86.md"
+  },
+  {
+    "title": "NIP-88: Polls",
+    "file": "88.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/88.md"
+  },
+  {
+    "title": "NIP-89: Recommended Application Handlers",
+    "file": "89.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/89.md"
+  },
+  {
+    "title": "NIP-90: Data Vending Machines",
+    "file": "90.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/90.md"
+  },
+  {
+    "title": "NIP-92: Media Attachments",
+    "file": "92.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/92.md"
+  },
+  {
+    "title": "NIP-94: File Metadata",
+    "file": "94.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/94.md"
+  },
+  {
+    "title": "NIP-96: HTTP File Storage Integration",
+    "file": "96.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/96.md"
+  },
+  {
+    "title": "NIP-98: HTTP Auth",
+    "file": "98.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/98.md"
+  },
+  {
+    "title": "NIP-99: Classified Listings",
+    "file": "99.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/99.md"
+  },
+  {
+    "title": "NIP-7D: Threads",
+    "file": "7D.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/7D.md"
+  },
+  {
+    "title": "NIP-C7: Chats",
+    "file": "C7.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/C7.md"
+  }
+]
