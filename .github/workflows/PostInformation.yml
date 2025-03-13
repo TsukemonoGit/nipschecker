@@ -3,7 +3,7 @@ name: Random Pull Request Information
 on:
   workflow_dispatch: # 手動実行を有効にする
   schedule:
-  - cron: "15 */2 * * *" # 2hに一回？ 
+    - cron: "15 */2 * * *" # 2時間ごとに実行
 
 jobs:
   pr-info:
@@ -14,35 +14,49 @@ jobs:
         uses: actions/checkout@v4
 
       - name: pull_requests.json を読み込む
-        id:  generate
+        id: generate
         run: |
           # pull_requests.json を読み込む
           PR_JSON=$(cat pull_requests.json)
-          
 
-          # ランダムなインデックスを計算して、そのインデックスのプルリクエストを選ぶ
-          PR=$(echo "$PR_JSON" | jq '.[(floor( rand * length )) | floor]')
+          # PR の数を取得
+          PR_COUNT=$(echo "$PR_JSON" | jq 'length')
 
-          
-          # プルリクエストの情報を表示
+          if [ "$PR_COUNT" -eq 0 ]; then
+            echo "No open pull requests found."
+            exit 1
+          fi
+
+          # ランダムなインデックスを取得
+          RANDOM_INDEX=$((RANDOM % PR_COUNT))
+
+          # ランダムなプルリクエストを選択
+          SELECTED_PR=$(echo "$PR_JSON" | jq ".[$RANDOM_INDEX]")
+
+          # PR 情報を出力
+          TITLE=$(echo "$SELECTED_PR" | jq -r '.title')
+          USER=$(echo "$SELECTED_PR" | jq -r '.user.login')
+          URL=$(echo "$SELECTED_PR" | jq -r '.html_url')
+
+          echo "title=$TITLE" >> $GITHUB_ENV
+          echo "user=$USER" >> $GITHUB_ENV
+          echo "url=$URL" >> $GITHUB_ENV
+
+      - name: 選ばれた PR を表示
+        run: |
           echo "選ばれたプルリクエストの情報:"
-          echo "title=$(echo "タイトル: $(echo "$PR" | jq -r '.title')")" >> $GITHUB_OUTPUT
-          echo "user=$(echo "作成者: $(echo "$PR" | jq -r '.user.login')")" >> $GITHUB_OUTPUT
-          echo "url=$(echo "URL: $(echo "$PR" | jq -r '.html_url')")" >> $GITHUB_OUTPUT
-       
+          echo "タイトル: ${{ env.title }}"
+          echo "作成者: ${{ env.user }}"
+          echo "URL: ${{ env.url }}"
 
-  
-# nostrに投稿する
-      - uses: snow-actions/nostr@v1.8.1
-        timeout-minutes: 0.2 #publishのTimeout
+      - name: Nostr に投稿する
+        uses: snow-actions/nostr@v1.8.1
+        timeout-minutes: 1
         with:
           relays: ${{ vars.NOSTR_RELAYS }}
           private-key: ${{ secrets.NOSTR_PRIVATE_KEY }}
           content: |
-            ${{ steps.generate.outputs.title }}
-            ${{ steps.generate.outputs.user }}
-            ${{ steps.generate.outputs.url }}
+            タイトル: ${{ env.title }}
+            作成者: ${{ env.user }}
+            URL: ${{ env.url }}
         id: publish
-   # - run: echo "${event}"
-   #   env:
-   #     event: ${{ steps.publish.outputs.event }}
