@@ -1,0 +1,33 @@
+name: Select Random Markdown File
+
+on:
+  workflow_dispatch: # 手動実行を可能にする
+  schedule:
+    - cron: "45 */2 * * *" # 2時間ごとに実行
+
+jobs:
+  select-md-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+
+      - name: md_files.json を読み込む
+        run: |
+          # md_files.json と exclude_files.json を読み込む
+          MD_FILES=$(cat md_files.json | jq -r '.[]')
+          EXCLUDE_FILES=$(cat exclude_files.json | jq -r '.[]')
+
+          # 除外リストに含まれない .md ファイルを取得
+          FILTERED_FILES=$(echo "$MD_FILES" | grep -Fxv -f <(echo "$EXCLUDE_FILES"))
+
+          # ランダムで1つ選択
+          RANDOM_FILE=$(echo "$FILTERED_FILES" | shuf -n 1)
+
+          # 選ばれたファイルを出力
+          echo "選ばれたファイル: $RANDOM_FILE"
+          echo "random_file=$RANDOM_FILE" >> $GITHUB_ENV
+
+      - name: 選ばれたファイルを表示
+        run: echo "ランダムに選ばれたファイルは ${{ env.random_file }} です"
