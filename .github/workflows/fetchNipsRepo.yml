@@ -24,20 +24,19 @@ jobs:
         run: |
           # GitHub API で README.md の内容を取得し、Base64デコード
           CONTENT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/nostr-protocol/nips/contents/README.md?ref=main" | jq -r '.content' | base64 -d)
-
-          if [[ -z "$CONTENT" ]]; then
-            echo "README.md の取得に失敗しました"
-            exit 1
-          fi
-
+            "https://api.github.com/repos/nostr-protocol/nips/contents/README.md?ref=master" | jq -r '.content' | base64 -d)
+      
+          # デバッグ: README.mdの内容を表示
+          echo "$CONTENT"
+      
           # `## List` セクションのみ抽出し、リストをJSONに変換
+          # `## List` セクションから次のセクションまでの内容を抽出
           echo "$CONTENT" | awk '
             /## List/{flag=1; next} 
             /^## /{if(flag){exit}} 
             flag' > list_section.md
-
-          echo "list_section.md の内容:"
+      
+          # デバッグ: 抽出したリストの内容を表示
           cat list_section.md
 
       - name: NIP リストを JSON に変換
