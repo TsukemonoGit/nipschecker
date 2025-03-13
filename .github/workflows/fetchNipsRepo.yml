@@ -9,7 +9,9 @@ jobs:
   fetch-prs-and-md-files:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # リポジトリのコンテンツに対する書き込み権限を与える
+      pages: write
+      id-token: write
+      contents: write
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
