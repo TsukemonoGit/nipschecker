@@ -1,4 +1,4 @@
-name: Display Random Pull Request Information
+name: Random Pull Request Information
 
 on:
   workflow_dispatch: # 手動実行を有効にする
