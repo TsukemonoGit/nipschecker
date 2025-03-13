@@ -21,10 +21,10 @@ jobs:
 
       - name: GitHub API から .md ファイルを取得
         run: |
-          # GitHub API を使用してリポジトリ内の .md ファイルを取得
+          # リポジトリのルートディレクトリにある .md ファイルを取得
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/nostr-protocol/nips/contents?ref=main" | \
-          jq '.[] | select(.name | endswith(".md")) | .path' > md_files.json
+          jq -r '.[] | select(.name | endswith(".md")) | .path' > md_files.json
 
       - name: md_files.json が生成されたか確認
         run: |
