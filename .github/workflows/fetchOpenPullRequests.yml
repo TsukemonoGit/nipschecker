@@ -8,7 +8,8 @@ on:
 jobs:
   fetch-prs:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  # リポジトリのコンテンツに対する書き込み権限を与える
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
