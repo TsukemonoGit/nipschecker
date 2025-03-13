@@ -1,7 +1,6 @@
 name: Create NIP List from list_section.md
 
 on:
-
   workflow_dispatch: # 手動実行も可能
 
 jobs:
@@ -18,8 +17,13 @@ jobs:
 
       - name: NIP リストを JSON に変換
         run: |
-          # `list_section.md` から必要な情報を抽出して nip_list.json を作成
-          cat list_section.md | grep -o '\[.*\](.*\.md)' | sed 's/(/\\(/g; s/)/\\)/g' | jq -Rn '
+          # grep でリンクを抽出し、正規表現で表示
+          cat list_section.md | grep -o '\[.*\](.*\.md)' > extracted_links.txt
+          echo "抽出されたリンク:"
+          cat extracted_links.txt
+
+          # 正規表現を使ってリストを JSON 形式に変換
+          cat extracted_links.txt | sed 's/(/\\(/g; s/)/\\)/g' | jq -Rn '
             [inputs
             | capture("\\[(?<title>[^\\]]+)\\] \\((?<file>[^)]+)\\)") 
             | {title: .title, file: .file, url: ("https://github.com/nostr-protocol/nips/blob/master/" + .file)}]' > nip_list.json
