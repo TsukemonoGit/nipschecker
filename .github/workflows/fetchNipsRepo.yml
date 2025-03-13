@@ -1,4 +1,4 @@
-name: Fetch Open Pull Requests and Markdown Files
+name: Fetch Open Pull Requests and Nip list Files
 
 on:
   schedule:
@@ -26,13 +26,20 @@ jobs:
           CONTENT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/nostr-protocol/nips/contents/README.md?ref=master" | jq -r '.content' | base64 -d)
 
-          # `## List` セクションのみ抽出し、JSON に変換
+          # `## List` セクションのみ抽出し、リストをJSONに変換
           echo "$CONTENT" | awk '
             /## List/{flag=1; next} 
             /^## /{if(flag){exit}} 
-            flag' | grep -o '\[.*\](.*\.md)' | jq -Rn '
-            [inputs | capture("\\[(?<title>.*)\\] \\((?<file>.*\\.md)\\)") |
-            {title: .title, file: .file, url: ("https://github.com/nostr-protocol/nips/blob/master/" + .file) }]' > nip_list.json
+            flag' > list_section.md
+
+      - name: NIP リストを JSON に変換
+        id: extract_nip_list
+        run: |
+          # リスト部分を正規表現でパースして JSON 形式に変換
+          cat list_section.md | grep -o '\[.*\](.*\.md)' | sed -E 's/\[(.*)\] \((.*\.md)\)/{"title": "\1", "file": "\2", "url": "https:\/\/github.com\/nostr-protocol\/nips\/blob\/master\/\2"}/' | jq -s . > nip_list.json
+
+          # JSONの中身を確認
+          cat nip_list.json
 
 
 
