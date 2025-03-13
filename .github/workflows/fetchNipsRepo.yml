@@ -9,7 +9,7 @@ jobs:
   fetch-prs-and-md-files:
     runs-on: ubuntu-latest
     permissions:
-      contents: read  # リポジトリのコンテンツを読む権限を与える
+      contents: write
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
