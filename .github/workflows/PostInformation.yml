@@ -19,8 +19,10 @@ jobs:
           # pull_requests.json を読み込む
           PR_JSON=$(cat pull_requests.json)
           
-          # ランダムなプルリクエストを選ぶ
-          PR=$(echo "$PR_JSON" | jq 'shuffle | .[0]')
+
+          # ランダムなインデックスを計算して、そのインデックスのプルリクエストを選ぶ
+          PR=$(echo "$PR_JSON" | jq '.[(floor( rand * length )) | floor]')
+
           
           # プルリクエストの情報を表示
           echo "選ばれたプルリクエストの情報:"
