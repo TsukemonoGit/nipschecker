@@ -3,7 +3,7 @@ name: Random Pull Request Information
 on:
   workflow_dispatch: # 手動実行を有効にする
   schedule:
-    - cron: "15 */2 * * *" # 2時間ごとに実行
+    - cron: "45 1-23/2 * * *" # 時〜23時の間で2時間おき＝奇数時毎
 
 jobs:
   pr-info:
