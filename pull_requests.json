@@ -291,7 +291,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -301,7 +301,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -371,7 +371,7 @@
     },
     "body": null,
     "created_at": "2025-03-23T23:00:50Z",
-    "updated_at": "2025-03-23T23:01:03Z",
+    "updated_at": "2025-03-24T19:28:22Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "2b416892c96cba712ea5b99908d077a566520eac",
@@ -628,7 +628,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -638,7 +638,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -708,7 +708,7 @@
     },
     "body": "This includes a minor update to extend kind `30003` in NIP-51 to include the `i` tag for external identities, as implemented for book reading lists in [Open Librarian](https://github.com/RydalWater/OpenLibrarian).",
     "created_at": "2025-03-23T16:08:41Z",
-    "updated_at": "2025-03-23T16:08:41Z",
+    "updated_at": "2025-03-24T15:14:13Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "814af1e3cc48511e0d84e6c215032e2a49e87568",
@@ -965,7 +965,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -975,7 +975,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -1045,7 +1045,7 @@
     },
     "body": "# Progress Events\r\nThe NIP covers the inclusion of `Progress Events` as implemented in [Open Librarian](https://github.com/RydalWater/OpenLibrarian). While the specific implementation is focused on tracking reading progress, the NIP is generic enough to be used in a whole range of other progress tracking scenarios (e.g. Fitness challenges, course progression for learning, personal goals etc..)\r\n\r\nThoughts/feedback/suggestions all welcome.",
     "created_at": "2025-03-23T16:05:33Z",
-    "updated_at": "2025-03-23T16:47:18Z",
+    "updated_at": "2025-03-24T20:52:43Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "d7f54372d75a33a62d983268f24a1307a8f5fd6b",
@@ -1302,7 +1302,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1312,7 +1312,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -1382,10 +1382,10 @@
     },
     "body": "Reference implementations: \r\n\r\n- https://notebin.io\r\n- https://snipsnip.dev",
     "created_at": "2025-03-23T08:58:49Z",
-    "updated_at": "2025-03-23T20:11:38Z",
+    "updated_at": "2025-03-24T23:58:48Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c023a299ea5654ab58a770def7ad4ad69c789546",
+    "merge_commit_sha": "3b6d4dafd0458262f4fb6cd2e6f7af5d3f4c299a",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -1397,11 +1397,11 @@
     "review_comments_url": "https://api.github.com/repos/nostr-protocol/nips/pulls/1852/comments",
     "review_comment_url": "https://api.github.com/repos/nostr-protocol/nips/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/nostr-protocol/nips/issues/1852/comments",
-    "statuses_url": "https://api.github.com/repos/nostr-protocol/nips/statuses/55f6a4b665d042b2b2db556087d14c348470cc79",
+    "statuses_url": "https://api.github.com/repos/nostr-protocol/nips/statuses/51b1173665740eed56a467f3e8fa57ba5f1d4990",
     "head": {
       "label": "ChristianChiarulli:code-snippets",
       "ref": "code-snippets",
-      "sha": "55f6a4b665d042b2b2db556087d14c348470cc79",
+      "sha": "51b1173665740eed56a467f3e8fa57ba5f1d4990",
       "user": {
         "login": "ChristianChiarulli",
         "id": 29136904,
@@ -1492,13 +1492,13 @@
         "deployments_url": "https://api.github.com/repos/ChristianChiarulli/nips/deployments",
         "created_at": "2023-11-05T03:50:45Z",
         "updated_at": "2025-03-23T08:48:28Z",
-        "pushed_at": "2025-03-23T08:57:11Z",
+        "pushed_at": "2025-03-24T23:55:02Z",
         "git_url": "git://github.com/ChristianChiarulli/nips.git",
         "ssh_url": "git@github.com:ChristianChiarulli/nips.git",
         "clone_url": "https://github.com/ChristianChiarulli/nips.git",
         "svn_url": "https://github.com/ChristianChiarulli/nips",
         "homepage": "",
-        "size": 1275,
+        "size": 1291,
         "stargazers_count": 0,
         "watchers_count": 0,
         "language": null,
@@ -1639,7 +1639,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1649,7 +1649,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -1677,7 +1677,7 @@
         "href": "https://api.github.com/repos/nostr-protocol/nips/pulls/1852/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/nostr-protocol/nips/statuses/55f6a4b665d042b2b2db556087d14c348470cc79"
+        "href": "https://api.github.com/repos/nostr-protocol/nips/statuses/51b1173665740eed56a467f3e8fa57ba5f1d4990"
       }
     },
     "author_association": "NONE",
@@ -1849,7 +1849,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1859,7 +1859,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -1978,7 +1978,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1988,7 +1988,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -2315,7 +2315,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2325,7 +2325,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -2395,7 +2395,7 @@
     },
     "body": "Add a favorite relays kind to store users' favorite relays and pointers to relay sets",
     "created_at": "2025-03-20T03:57:01Z",
-    "updated_at": "2025-03-20T03:57:02Z",
+    "updated_at": "2025-03-24T18:24:06Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "669f7659abd12828cbc4fd4c7f5ec26133c0a02b",
@@ -2652,7 +2652,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2662,7 +2662,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -2732,7 +2732,7 @@
     },
     "body": "https://github.com/nostr-protocol/nips/blob/f6b203ab420d38744e5a093d9288d43a41e00674/b0.md",
     "created_at": "2025-03-19T11:55:06Z",
-    "updated_at": "2025-03-20T08:48:00Z",
+    "updated_at": "2025-03-24T22:27:29Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "f09483bf30f2f57a41b9d84a08008cb0ac19cf60",
@@ -2862,7 +2862,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2872,7 +2872,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -2991,7 +2991,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3001,7 +3001,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -3328,7 +3328,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3338,7 +3338,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -3665,7 +3665,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3675,7 +3675,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -3875,7 +3875,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3885,7 +3885,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -4004,7 +4004,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4014,7 +4014,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -4363,7 +4363,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4373,7 +4373,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -4700,7 +4700,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4710,7 +4710,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -5037,7 +5037,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5047,7 +5047,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -5374,7 +5374,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5384,7 +5384,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -5711,7 +5711,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5721,7 +5721,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -5921,7 +5921,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5931,7 +5931,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -6050,7 +6050,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6060,7 +6060,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -6387,7 +6387,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6397,7 +6397,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -6724,7 +6724,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6734,7 +6734,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -7061,7 +7061,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7071,7 +7071,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -7271,7 +7271,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7281,7 +7281,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -7400,7 +7400,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7410,7 +7410,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -7737,7 +7737,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7747,7 +7747,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -8074,7 +8074,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8084,7 +8084,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -8411,7 +8411,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8421,7 +8421,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -8748,7 +8748,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8758,7 +8758,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -9085,7 +9085,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9095,7 +9095,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -9422,7 +9422,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9432,7 +9432,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -9759,7 +9759,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9769,7 +9769,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
@@ -10096,7 +10096,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 611,
+        "open_issues_count": 610,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -10106,7 +10106,7 @@
         ],
         "visibility": "public",
         "forks": 637,
-        "open_issues": 611,
+        "open_issues": 610,
         "watchers": 2513,
         "default_branch": "master"
       }
