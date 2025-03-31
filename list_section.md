@@ -77,5 +77,6 @@
 - [NIP-98: HTTP Auth](98.md)
 - [NIP-99: Classified Listings](99.md)
 - [NIP-7D: Threads](7D.md)
+- [NIP-C0: Code Snippets](C0.md)
 - [NIP-C7: Chats](C7.md)
 

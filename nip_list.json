@@ -390,6 +390,11 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/7D.md"
   },
   {
+    "title": "NIP-C0: Code Snippets",
+    "file": "C0.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/C0.md"
+  },
+  {
     "title": "NIP-C7: Chats",
     "file": "C7.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/C7.md"
