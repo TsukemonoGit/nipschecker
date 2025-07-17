@@ -355,6 +355,11 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/86.md"
   },
   {
+    "title": "NIP-87: Ecash Mint Discoverability",
+    "file": "87.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/87.md"
+  },
+  {
     "title": "NIP-88: Polls",
     "file": "88.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/88.md"
