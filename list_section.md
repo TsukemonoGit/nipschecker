@@ -84,4 +84,5 @@
 - [NIP-B7: Blossom](B7.md)
 - [NIP-C0: Code Snippets](C0.md)
 - [NIP-C7: Chats](C7.md)
+- [NIP-EE: E2EE Messaging using MLS Protocol](EE.md)
 
