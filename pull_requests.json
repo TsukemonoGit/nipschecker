@@ -34,10 +34,10 @@
     },
     "body": "A new kind `30025` to have metadata like audio file URL, episode number, transcript file URL, chapters file URL etc. that would help discover podcast content and create specific podcast clients native to nostr.",
     "created_at": "2025-09-10T21:21:04Z",
-    "updated_at": "2025-09-11T21:23:44Z",
+    "updated_at": "2025-09-12T10:32:59Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "3fcedc5f957e402132c078be9e82592501153fcc",
+    "merge_commit_sha": "7a219915d62dd2ab012ba7955bf7b67d2694a2f4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -49,11 +49,11 @@
     "review_comments_url": "https://api.github.com/repos/nostr-protocol/nips/pulls/2061/comments",
     "review_comment_url": "https://api.github.com/repos/nostr-protocol/nips/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/nostr-protocol/nips/issues/2061/comments",
-    "statuses_url": "https://api.github.com/repos/nostr-protocol/nips/statuses/d27e8c459244b76c4e16ee6e90b504958add7ee0",
+    "statuses_url": "https://api.github.com/repos/nostr-protocol/nips/statuses/f5692fd036045cafeac204904f1003154de14c94",
     "head": {
       "label": "dhalsim:podcast-episode",
       "ref": "podcast-episode",
-      "sha": "d27e8c459244b76c4e16ee6e90b504958add7ee0",
+      "sha": "f5692fd036045cafeac204904f1003154de14c94",
       "user": {
         "login": "dhalsim",
         "id": 1815485,
@@ -144,7 +144,7 @@
         "deployments_url": "https://api.github.com/repos/dhalsim/nostr-nips/deployments",
         "created_at": "2024-09-07T10:01:49Z",
         "updated_at": "2025-09-10T21:17:12Z",
-        "pushed_at": "2025-09-11T21:23:44Z",
+        "pushed_at": "2025-09-12T10:28:21Z",
         "git_url": "git://github.com/dhalsim/nostr-nips.git",
         "ssh_url": "git@github.com:dhalsim/nostr-nips.git",
         "clone_url": "https://github.com/dhalsim/nostr-nips.git",
@@ -291,7 +291,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -301,7 +301,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -329,7 +329,7 @@
         "href": "https://api.github.com/repos/nostr-protocol/nips/pulls/2061/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/nostr-protocol/nips/statuses/d27e8c459244b76c4e16ee6e90b504958add7ee0"
+        "href": "https://api.github.com/repos/nostr-protocol/nips/statuses/f5692fd036045cafeac204904f1003154de14c94"
       }
     },
     "author_association": "NONE",
@@ -628,7 +628,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -638,7 +638,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -711,7 +711,7 @@
     "updated_at": "2025-09-09T14:53:31Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9a30ef5dc7edea873563d303b91ad29a8dfa1af0",
+    "merge_commit_sha": "4415bdc924c9f23fb88490dff161d2e9ce010f43",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -965,7 +965,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -975,7 +975,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -1302,7 +1302,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1312,7 +1312,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -1639,7 +1639,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1649,7 +1649,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -1719,13 +1719,34 @@
     },
     "body": "This NIP defines time-locked capsules: encrypted Nostr events that become readable only at/after a target timestamp or when a threshold of designated witnesses publish unlock shares. It includes specifications for event kinds, unlock modes, protocol flow, client behavior, security considerations, and examples.",
     "created_at": "2025-08-30T13:19:07Z",
-    "updated_at": "2025-08-30T20:41:58Z",
+    "updated_at": "2025-09-12T19:52:56Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b9a5216ceb12860afd7d56cf67fdfbb821067f4e",
+    "merge_commit_sha": "4aa7637dac9378be12fcd7d54f70331e523b8b62",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [
+      {
+        "login": "vitorpamplona",
+        "id": 532031,
+        "node_id": "MDQ6VXNlcjUzMjAzMQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/532031?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vitorpamplona",
+        "html_url": "https://github.com/vitorpamplona",
+        "followers_url": "https://api.github.com/users/vitorpamplona/followers",
+        "following_url": "https://api.github.com/users/vitorpamplona/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vitorpamplona/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vitorpamplona/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vitorpamplona/subscriptions",
+        "organizations_url": "https://api.github.com/users/vitorpamplona/orgs",
+        "repos_url": "https://api.github.com/users/vitorpamplona/repos",
+        "events_url": "https://api.github.com/users/vitorpamplona/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vitorpamplona/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
       {
         "login": "kehiy",
         "id": 89645414,
@@ -1756,11 +1777,11 @@
     "review_comments_url": "https://api.github.com/repos/nostr-protocol/nips/pulls/2045/comments",
     "review_comment_url": "https://api.github.com/repos/nostr-protocol/nips/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/nostr-protocol/nips/issues/2045/comments",
-    "statuses_url": "https://api.github.com/repos/nostr-protocol/nips/statuses/53af153d6badda06d32e6b2c1c538415442d8878",
+    "statuses_url": "https://api.github.com/repos/nostr-protocol/nips/statuses/2166c5f9c835a2b423e1483d282f50bff5adaf6b",
     "head": {
       "label": "Shugur-Network:master",
       "ref": "master",
-      "sha": "53af153d6badda06d32e6b2c1c538415442d8878",
+      "sha": "2166c5f9c835a2b423e1483d282f50bff5adaf6b",
       "user": {
         "login": "Shugur-Network",
         "id": 198367099,
@@ -1850,14 +1871,14 @@
         "releases_url": "https://api.github.com/repos/Shugur-Network/nips/releases{/id}",
         "deployments_url": "https://api.github.com/repos/Shugur-Network/nips/deployments",
         "created_at": "2025-08-30T13:16:10Z",
-        "updated_at": "2025-08-30T20:42:00Z",
-        "pushed_at": "2025-08-30T20:41:57Z",
+        "updated_at": "2025-09-12T19:48:32Z",
+        "pushed_at": "2025-09-12T19:48:28Z",
         "git_url": "git://github.com/Shugur-Network/nips.git",
         "ssh_url": "git@github.com:Shugur-Network/nips.git",
         "clone_url": "https://github.com/Shugur-Network/nips.git",
         "svn_url": "https://github.com/Shugur-Network/nips",
         "homepage": "",
-        "size": 1455,
+        "size": 1436,
         "stargazers_count": 0,
         "watchers_count": 0,
         "language": null,
@@ -1887,7 +1908,7 @@
     "base": {
       "label": "nostr-protocol:master",
       "ref": "master",
-      "sha": "fd9c627b36aae2b56acfb8eae80429458daa7fef",
+      "sha": "e35a1bebbc7a5e10970d2dbc9d07a88ee876bfbf",
       "user": {
         "login": "nostr-protocol",
         "id": 103332273,
@@ -1998,7 +2019,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2008,7 +2029,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -2036,7 +2057,7 @@
         "href": "https://api.github.com/repos/nostr-protocol/nips/pulls/2045/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/nostr-protocol/nips/statuses/53af153d6badda06d32e6b2c1c538415442d8878"
+        "href": "https://api.github.com/repos/nostr-protocol/nips/statuses/2166c5f9c835a2b423e1483d282f50bff5adaf6b"
       }
     },
     "author_association": "NONE",
@@ -2335,7 +2356,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2345,7 +2366,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -2672,7 +2693,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2682,7 +2703,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -3009,7 +3030,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3019,7 +3040,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -3346,7 +3367,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3356,7 +3377,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -3429,7 +3450,7 @@
     "updated_at": "2025-08-18T20:08:57Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ee8b135f47f5232d327ff65d7b85a2eaaa782073",
+    "merge_commit_sha": "a9afdb1429c25514c551084fa469b4035c57baa8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -3683,7 +3704,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3693,7 +3714,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -3766,7 +3787,7 @@
     "updated_at": "2025-08-21T08:25:06Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5f79d2bd635c7dd3ca6489f400b6f7900366edd8",
+    "merge_commit_sha": "b9b8581f9acbb151b70e50ab177dd3c286aa97ca",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -4020,7 +4041,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4030,7 +4051,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -4357,7 +4378,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4367,7 +4388,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -4694,7 +4715,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4704,7 +4725,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -5031,7 +5052,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5041,7 +5062,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -5368,7 +5389,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5378,7 +5399,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -5705,7 +5726,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5715,7 +5736,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -6042,7 +6063,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6052,7 +6073,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -6379,7 +6400,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6389,7 +6410,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -6462,7 +6483,7 @@
     "updated_at": "2025-07-30T16:35:42Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "89b3f149856b6bda42a482bb81f1a85d41f60541",
+    "merge_commit_sha": "30076e18cdbbdb0e4b53bb25878dd23d7633e3d4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -6716,7 +6737,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6726,7 +6747,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -7053,7 +7074,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7063,7 +7084,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -7136,7 +7157,7 @@
     "updated_at": "2025-09-05T07:06:32Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b487a31c13d05c65d5606a35fab9bd74cd5780c2",
+    "merge_commit_sha": "afd4baa39ec2a81ca52a5928ac8fb9729badb468",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -7390,7 +7411,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7400,7 +7421,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -7727,7 +7748,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7737,7 +7758,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -8064,7 +8085,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8074,7 +8095,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -8401,7 +8422,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8411,7 +8432,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -8611,7 +8632,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8621,7 +8642,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -8740,7 +8761,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8750,7 +8771,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -9077,7 +9098,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9087,7 +9108,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -9160,7 +9181,7 @@
     "updated_at": "2025-07-30T09:31:13Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4b86268774978b848794e8c8987f5e5cd533a3c3",
+    "merge_commit_sha": "812f7952ae20e4b2a3dcab0ea6454b2bd8d6ad1d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -9414,7 +9435,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9424,7 +9445,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -9751,7 +9772,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9761,7 +9782,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
@@ -10088,7 +10109,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 608,
+        "open_issues_count": 609,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -10098,7 +10119,7 @@
         ],
         "visibility": "public",
         "forks": 694,
-        "open_issues": 608,
+        "open_issues": 609,
         "watchers": 2687,
         "default_branch": "master"
       }
