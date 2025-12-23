@@ -410,6 +410,11 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/A0.md"
   },
   {
+    "title": "NIP-A4: Public Messages",
+    "file": "A4.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/A4.md"
+  },
+  {
     "title": "NIP-B0: Web Bookmarks",
     "file": "B0.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/B0.md"
