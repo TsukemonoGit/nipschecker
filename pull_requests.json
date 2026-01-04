@@ -164,7 +164,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -174,7 +174,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -293,7 +293,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -303,7 +303,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -630,7 +630,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -640,7 +640,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -686,7 +686,7 @@
     "number": 2179,
     "state": "open",
     "locked": false,
-    "title": "NIP-XX: Quorum for decentralized decision-making.",
+    "title": "NIP-XX: Quorum for centralizing decentralized organizations",
     "user": {
       "login": "taylorphillips",
       "id": 850769,
@@ -708,9 +708,9 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "This is a sketch of a new concept for organizing decentralized decisions which is uniquely possible on Nostr.  Any feedback would be appreciated.\r\n",
+    "body": "This NIP proposes a Quorum as new concept for centralizing decentralized organizations in a framework that is maximally flexible & resilient. It is a serious proposal to reorganize humanity and solve the age-old plague of corruption and for all. \r\n\r\nHere are some examples of where this could be applied:\r\n - How do we manage open source repositories like Linux, Bitcoin & Nostr?\r\n - How do we cryptographically ensure votes of Board Meeting, HOA, or Trust so participants aren't forced to trust a judicial body?\r\n - How do we ensure Academic, Medical & Scientific Journals don't get captured?\r\n - How do we ensure that Sports Networks like the Olympics, FIFA, NBA, NCAA don't capture their players?\r\n - How do we ensure that a government continues to serve its people rather than enslaving them?\r\n\r\n**Maybe the killer app for Nostr is governance.**\r\n\r\nAnd maybe proper governance solves the centralization problem.\r\n\r\nWe the people always have the power and Quorum is a foundation which enables people to wield that power. The creation of a decentralized nation built on bitcoin which issues its own passports is available to us in the present moment. We must simply take the reigns.",
     "created_at": "2025-12-27T19:35:11Z",
-    "updated_at": "2025-12-28T16:21:01Z",
+    "updated_at": "2026-01-03T20:03:13Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "8c8163ff4c0ae6b6440c15c439f26062f06a0a5b",
@@ -967,7 +967,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -977,7 +977,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -1304,7 +1304,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1314,7 +1314,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -1641,7 +1641,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1651,7 +1651,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -1978,7 +1978,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -1988,7 +1988,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -2188,7 +2188,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2198,7 +2198,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -2317,7 +2317,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2327,7 +2327,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -2654,7 +2654,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -2664,7 +2664,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -2991,7 +2991,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3001,7 +3001,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -3328,7 +3328,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3338,7 +3338,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -3665,7 +3665,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -3675,7 +3675,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -4002,7 +4002,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4012,7 +4012,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -4212,7 +4212,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4222,7 +4222,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -4341,7 +4341,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4351,7 +4351,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -4678,7 +4678,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -4688,7 +4688,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -5015,7 +5015,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5025,7 +5025,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -5352,7 +5352,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5362,7 +5362,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -5689,7 +5689,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -5699,7 +5699,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -6026,7 +6026,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6036,7 +6036,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -6109,7 +6109,7 @@
     "updated_at": "2025-12-02T18:30:02Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "92ffd4dc3114568f1e73b817e28279d2c48ed99c",
+    "merge_commit_sha": "62c8bcd25e73b0ab6b7e1683ed57ceca0c09ec14",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -6363,7 +6363,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6373,7 +6373,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -6700,7 +6700,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6710,7 +6710,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -6910,7 +6910,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -6920,7 +6920,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -7039,7 +7039,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7049,7 +7049,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -7249,7 +7249,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7259,7 +7259,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -7378,7 +7378,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7388,7 +7388,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -7715,7 +7715,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -7725,7 +7725,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -8052,7 +8052,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8062,7 +8062,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -8389,7 +8389,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8399,7 +8399,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -8726,7 +8726,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -8736,7 +8736,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -9063,7 +9063,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9073,7 +9073,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -9400,7 +9400,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9410,7 +9410,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -9737,7 +9737,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -9747,7 +9747,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
@@ -10074,7 +10074,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 610,
+        "open_issues_count": 611,
         "license": null,
         "allow_forking": true,
         "is_template": false,
@@ -10084,7 +10084,7 @@
         ],
         "visibility": "public",
         "forks": 721,
-        "open_issues": 610,
+        "open_issues": 611,
         "watchers": 2812,
         "default_branch": "master"
       }
