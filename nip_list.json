@@ -355,6 +355,11 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/84.md"
   },
   {
+    "title": "NIP-85: Trusted Assertions",
+    "file": "85.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/85.md"
+  },
+  {
     "title": "NIP-86: Relay Management API",
     "file": "86.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/86.md"
