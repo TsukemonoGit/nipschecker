@@ -385,6 +385,11 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/90.md"
   },
   {
+    "title": "NIP-91: AND filters",
+    "file": "91.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/91.md"
+  },
+  {
     "title": "NIP-92: Media Attachments",
     "file": "92.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/92.md"
