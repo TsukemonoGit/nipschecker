@@ -270,6 +270,11 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/59.md"
   },
   {
+    "title": "NIP-5A: Pubkey Static Websites",
+    "file": "5A.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/5A.md"
+  },
+  {
     "title": "NIP-60: Cashu Wallet",
     "file": "60.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/60.md"
