@@ -270,7 +270,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/59.md"
   },
   {
-    "title": "NIP-5A: Pubkey Static Websites",
+    "title": "NIP-5A: Static Websites (nsites)",
     "file": "5A.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/5A.md"
   },
