@@ -1,18 +1,18 @@
 
 - [NIP-01: Basic protocol flow description](01.md)
 - [NIP-02: Follow List](02.md)
-- [NIP-03: OpenTimestamps Attestations for Events](03.md)
-- [NIP-04: Encrypted Direct Message](04.md) --- **unrecommended**: deprecated in favor of [NIP-17](17.md)
+~~- [NIP-03: OpenTimestamps Attestations for Events](03.md) --- **unrecommended**: vulnerable to one specific attack, needs update~~
+~~- [NIP-04: Encrypted Direct Message](04.md) --- **unrecommended**: deprecated in favor of [NIP-17](17.md)~~
 - [NIP-05: Mapping Nostr keys to DNS-based internet identifiers](05.md)
-- [NIP-06: Basic key derivation from mnemonic seed phrase](06.md)
+~~- [NIP-06: Basic key derivation from mnemonic seed phrase](06.md) --- **unrecommended**: prefer a single nsec~~
 - [NIP-07: `window.nostr` capability for web browsers](07.md)
-- [NIP-08: Handling Mentions](08.md) --- **unrecommended**: deprecated in favor of [NIP-27](27.md)
+~~- [NIP-08: Handling Mentions](08.md) --- **unrecommended**: deprecated in favor of [NIP-27](27.md)~~
 - [NIP-09: Event Deletion Request](09.md)
 - [NIP-10: Text Notes and Threads](10.md)
 - [NIP-11: Relay Information Document](11.md)
 - [NIP-13: Proof of Work](13.md)
 - [NIP-14: Subject tag in text events](14.md)
-- [NIP-15: Nostr Marketplace (for resilient marketplaces)](15.md)
+~~- [NIP-15: Nostr Marketplace (for resilient marketplaces)](15.md) --- **unrecommended**: too complicated, try [99](99.md) instead~~
 - [NIP-17: Private Direct Messages](17.md)
 - [NIP-18: Reposts](18.md)
 - [NIP-19: bech32-encoded entities](19.md)
@@ -21,12 +21,12 @@
 - [NIP-23: Long-form Content](23.md)
 - [NIP-24: Extra metadata fields and tags](24.md)
 - [NIP-25: Reactions](25.md)
-- [NIP-26: Delegated Event Signing](26.md) --- **unrecommended**: adds unnecessary burden for little gain
+~~- [NIP-26: Delegated Event Signing](26.md) --- **unrecommended**: adds unnecessary burden for little gain~~
 - [NIP-27: Text Note References](27.md)
-- [NIP-28: Public Chat](28.md)
+~~- [NIP-28: Public Chat](28.md) --- **unrecommended**: try [NIP-29](29.md) instead~~
 - [NIP-29: Relay-based Groups](29.md)
 - [NIP-30: Custom Emoji](30.md)
-- [NIP-31: Dealing with Unknown Events](31.md)
+~~- [NIP-31: Dealing with Unknown Events](31.md) --- **unrecommended**: unnecessarily bloated~~
 - [NIP-32: Labeling](32.md)
 - [NIP-34: `git` stuff](34.md)
 - [NIP-35: Torrents](35.md)
@@ -41,7 +41,7 @@
 - [NIP-45: Counting results](45.md)
 - [NIP-46: Nostr Remote Signing](46.md)
 - [NIP-47: Nostr Wallet Connect](47.md)
-- [NIP-48: Proxy Tags](48.md)
+- [NIP-48: Bridged Events](48.md)
 - [NIP-49: Private Key Encryption](49.md)
 - [NIP-50: Search Capability](50.md)
 - [NIP-51: Lists](51.md)
@@ -59,35 +59,36 @@
 - [NIP-62: Request to Vanish](62.md)
 - [NIP-64: Chess (PGN)](64.md)
 - [NIP-65: Relay List Metadata](65.md)
-- [NIP-66: Relay Discovery and Liveness Monitoring](66.md)
+- [NIP-66: Relay Liveness Monitoring](66.md)
 - [NIP-68: Picture-first feeds](68.md)
 - [NIP-69: Peer-to-peer Order events](69.md)
 - [NIP-70: Protected Events](70.md)
 - [NIP-71: Video Events](71.md)
-- [NIP-72: Moderated Communities](72.md)
+~~- [NIP-72: Moderated Communities](72.md) --- **unrecommended**: try [NIP-29](29.md) instead~~
 - [NIP-73: External Content IDs](73.md)
 - [NIP-75: Zap Goals](75.md)
 - [NIP-77: Negentropy Syncing](77.md)
 - [NIP-78: Application-specific data](78.md)
-- [NIP-7D: Threads](7D.md)
+- [NIP-7D: Forum Threads](7D.md)
 - [NIP-84: Highlights](84.md)
 - [NIP-85: Trusted Assertions](85.md)
 - [NIP-86: Relay Management API](86.md)
 - [NIP-87: Ecash Mint Discoverability](87.md)
 - [NIP-88: Polls](88.md)
 - [NIP-89: Recommended Application Handlers](89.md)
-- [NIP-90: Data Vending Machines](90.md)
-- [NIP-92: Media Attachments](92.md)
+~~- [NIP-90: Data Vending Machines](90.md) --- **unrecommended**: this got totally out of control, prefer use-case-specific microstandards~~
+- [NIP-92: Media Attachments Metadata](92.md)
 - [NIP-94: File Metadata](94.md)
-- [NIP-96: HTTP File Storage Integration](96.md) --- **unrecommended**: replaced by blossom APIs
+~~- [NIP-96: HTTP File Storage Integration](96.md) --- **unrecommended**: replaced by Blossom~~
 - [NIP-98: HTTP Auth](98.md)
 - [NIP-99: Classified Listings](99.md)
 - [NIP-A0: Voice Messages](A0.md)
 - [NIP-A4: Public Messages](A4.md)
 - [NIP-B0: Web Bookmarks](B0.md)
 - [NIP-B7: Blossom](B7.md)
-- [NIP-BE: Nostr BLE Communications Protocol](BE.md)
+~~- [NIP-BE: Nostr BLE Communications Protocol](BE.md) --- **unrecommended**: only implemented once and unclear whether it works, requires review~~
 - [NIP-C0: Code Snippets](C0.md)
+- [NIP-CC: Geocaching](CC.md)
 - [NIP-C7: Chats](C7.md)
-- [NIP-EE: E2EE Messaging using MLS Protocol](EE.md) --- **unrecommended**: superseded by the [Marmot Protocol](https://github.com/marmot-protocol/marmot)
+~~- [NIP-EE: E2EE Messaging using MLS Protocol](EE.md) --- **unrecommended**: superseded by the [Marmot Protocol](https://github.com/marmot-protocol/marmot)~~
 
