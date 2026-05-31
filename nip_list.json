@@ -10,34 +10,14 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/02.md"
   },
   {
-    "title": "NIP-03: OpenTimestamps Attestations for Events",
-    "file": "03.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/03.md"
-  },
-  {
-    "title": "NIP-04: Encrypted Direct Message",
-    "file": "04.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/04.md"
-  },
-  {
     "title": "NIP-05: Mapping Nostr keys to DNS-based internet identifiers",
     "file": "05.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/05.md"
   },
   {
-    "title": "NIP-06: Basic key derivation from mnemonic seed phrase",
-    "file": "06.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/06.md"
-  },
-  {
     "title": "NIP-07: `window.nostr` capability for web browsers",
     "file": "07.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/07.md"
-  },
-  {
-    "title": "NIP-08: Handling Mentions",
-    "file": "08.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/08.md"
   },
   {
     "title": "NIP-09: Event Deletion Request",
@@ -63,11 +43,6 @@
     "title": "NIP-14: Subject tag in text events",
     "file": "14.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/14.md"
-  },
-  {
-    "title": "NIP-15: Nostr Marketplace (for resilient marketplaces)",
-    "file": "15.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/15.md"
   },
   {
     "title": "NIP-17: Private Direct Messages",
@@ -110,19 +85,9 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/25.md"
   },
   {
-    "title": "NIP-26: Delegated Event Signing",
-    "file": "26.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/26.md"
-  },
-  {
     "title": "NIP-27: Text Note References",
     "file": "27.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/27.md"
-  },
-  {
-    "title": "NIP-28: Public Chat",
-    "file": "28.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/28.md"
   },
   {
     "title": "NIP-29: Relay-based Groups",
@@ -133,11 +98,6 @@
     "title": "NIP-30: Custom Emoji",
     "file": "30.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/30.md"
-  },
-  {
-    "title": "NIP-31: Dealing with Unknown Events",
-    "file": "31.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/31.md"
   },
   {
     "title": "NIP-32: Labeling",
@@ -325,11 +285,6 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/71.md"
   },
   {
-    "title": "NIP-72: Moderated Communities",
-    "file": "72.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/72.md"
-  },
-  {
     "title": "NIP-73: External Content IDs",
     "file": "73.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/73.md"
@@ -385,11 +340,6 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/89.md"
   },
   {
-    "title": "NIP-90: Data Vending Machines",
-    "file": "90.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/90.md"
-  },
-  {
     "title": "NIP-92: Media Attachments Metadata",
     "file": "92.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/92.md"
@@ -398,11 +348,6 @@
     "title": "NIP-94: File Metadata",
     "file": "94.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/94.md"
-  },
-  {
-    "title": "NIP-96: HTTP File Storage Integration",
-    "file": "96.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/96.md"
   },
   {
     "title": "NIP-98: HTTP Auth",
@@ -435,11 +380,6 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/B7.md"
   },
   {
-    "title": "NIP-BE: Nostr BLE Communications Protocol",
-    "file": "BE.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/BE.md"
-  },
-  {
     "title": "NIP-C0: Code Snippets",
     "file": "C0.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/C0.md"
@@ -453,10 +393,5 @@
     "title": "NIP-C7: Chats",
     "file": "C7.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/C7.md"
-  },
-  {
-    "title": "NIP-EE: E2EE Messaging using MLS Protocol",
-    "file": "EE.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/EE.md"
   }
 ]
