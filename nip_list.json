@@ -130,7 +130,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/38.md"
   },
   {
-    "title": "NIP-39: External Identities in Profiles",
+    "title": "NIP-39: Linking Profiles to Other Platforms",
     "file": "39.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/39.md"
   },
@@ -175,7 +175,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/48.md"
   },
   {
-    "title": "NIP-49: Private Key Encryption",
+    "title": "NIP-49: Private Key Encryption (`ncryptsec`)",
     "file": "49.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/49.md"
   },
@@ -195,7 +195,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/52.md"
   },
   {
-    "title": "NIP-53: Live Activities",
+    "title": "NIP-53: Live Streaming and Spaces",
     "file": "53.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/53.md"
   },
@@ -325,7 +325,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/86.md"
   },
   {
-    "title": "NIP-87: Ecash Mint Discoverability",
+    "title": "NIP-87: Cashu and Fedimint Discoverability",
     "file": "87.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/87.md"
   },
@@ -340,7 +340,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/89.md"
   },
   {
-    "title": "NIP-92: Media Attachments Metadata",
+    "title": "NIP-92: Media Attachments Metadata (`imeta`)",
     "file": "92.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/92.md"
   },
@@ -393,5 +393,10 @@
     "title": "NIP-C7: Chats",
     "file": "C7.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/C7.md"
+  },
+  {
+    "title": "NIP-F4: Podcasts",
+    "file": "F4.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/F4.md"
   }
 ]
