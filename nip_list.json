@@ -260,9 +260,14 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/65.md"
   },
   {
-    "title": "NIP-66: Relay Liveness Monitoring",
+    "title": "NIP-66: Relay Discovery and Liveness Monitoring",
     "file": "66.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/66.md"
+  },
+  {
+    "title": "NIP-67: EOSE Completeness Hint",
+    "file": "67.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/67.md"
   },
   {
     "title": "NIP-68: Picture-first feeds",
