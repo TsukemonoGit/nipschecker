@@ -390,14 +390,14 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/C0.md"
   },
   {
-    "title": "NIP-CC: Geocaching",
-    "file": "CC.md",
-    "url": "https://github.com/nostr-protocol/nips/blob/master/CC.md"
-  },
-  {
     "title": "NIP-C7: Chats",
     "file": "C7.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/C7.md"
+  },
+  {
+    "title": "NIP-CC: Geocaching",
+    "file": "CC.md",
+    "url": "https://github.com/nostr-protocol/nips/blob/master/CC.md"
   },
   {
     "title": "NIP-F4: Podcasts",
