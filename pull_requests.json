@@ -375,7 +375,7 @@
     },
     "body": "Upon rate limiting a client, relays lack a machine-readable way to tell a client how much it should wait before sending new messages.\n\nThe extra parameter should also be useful for `pow` messages, but this PR only standardize that for `rate-limited` messages.\n\nIt is a \"retry after\" instead of \"retry at\" because of a possible clock skew between relay and client due to lack of a initial handshake.",
     "created_at": "2026-10-09T14:00:58Z",
-    "updated_at": "2026-10-09T22:25:39Z",
+    "updated_at": "2026-10-11T16:56:23Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "d284ec89cfbaaea392ae4a4f6db9340b8cebf9bb",
