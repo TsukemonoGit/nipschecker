@@ -288,7 +288,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -303,7 +303,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -629,7 +629,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -644,7 +644,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -970,7 +970,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -985,7 +985,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -1060,7 +1060,7 @@
     "updated_at": "2026-10-27T14:00:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b75299d88543f3335f879e7f937c410e9f041db1",
+    "merge_commit_sha": "e1aff5df51e0449253eb4e2de3b4ada60a8c0e77",
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -1311,7 +1311,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -1326,7 +1326,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -1523,7 +1523,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -1538,7 +1538,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -1654,7 +1654,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -1669,7 +1669,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -1995,7 +1995,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -2010,7 +2010,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -2336,7 +2336,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -2351,7 +2351,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -2677,7 +2677,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -2692,7 +2692,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -2767,7 +2767,7 @@
     "updated_at": "2026-10-26T15:48:21Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "9985133fa8cb000d88f5b033562c2eb402e1721d",
+    "merge_commit_sha": "9c9375904b0fe1e46948c0e1885fd96010b16a96",
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -3018,7 +3018,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -3033,7 +3033,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -3359,7 +3359,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -3374,7 +3374,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -3700,7 +3700,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -3715,7 +3715,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -4041,7 +4041,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -4056,7 +4056,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -4382,7 +4382,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -4397,7 +4397,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -4723,7 +4723,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -4738,7 +4738,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -5064,7 +5064,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -5079,7 +5079,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -5405,7 +5405,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -5420,7 +5420,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -5746,7 +5746,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -5761,7 +5761,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -6087,7 +6087,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -6102,7 +6102,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -6428,7 +6428,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -6443,7 +6443,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -6769,7 +6769,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -6784,7 +6784,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -7110,7 +7110,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -7125,7 +7125,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -7451,7 +7451,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -7466,7 +7466,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -7792,7 +7792,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -7807,7 +7807,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -8133,7 +8133,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -8148,7 +8148,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -8223,7 +8223,7 @@
     "updated_at": "2026-10-21T02:50:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ab14a0c288989b43a6a0bbf771cae16f9f158f21",
+    "merge_commit_sha": "c694dd02f729bf9664c1725d0fcf0b22bfa06b77",
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -8474,7 +8474,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -8489,7 +8489,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -8815,7 +8815,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -8830,7 +8830,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -9027,7 +9027,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -9042,7 +9042,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -9158,7 +9158,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -9173,7 +9173,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -9499,7 +9499,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -9514,7 +9514,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -9840,7 +9840,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -9855,7 +9855,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -10052,7 +10052,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -10067,7 +10067,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
@@ -10183,7 +10183,7 @@
         "has_wiki": false,
         "has_pages": false,
         "has_discussions": false,
-        "forks_count": 802,
+        "forks_count": 803,
         "mirror_url": null,
         "archived": false,
         "disabled": false,
@@ -10198,7 +10198,7 @@
           "nostr"
         ],
         "visibility": "public",
-        "forks": 802,
+        "forks": 803,
         "open_issues": 748,
         "watchers": 3128,
         "default_branch": "master"
