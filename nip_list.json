@@ -260,7 +260,7 @@
     "url": "https://github.com/nostr-protocol/nips/blob/master/65.md"
   },
   {
-    "title": "NIP-66: Relay Discovery and Liveness Monitoring",
+    "title": "NIP-66: Relay Liveness Monitoring",
     "file": "66.md",
     "url": "https://github.com/nostr-protocol/nips/blob/master/66.md"
   },
